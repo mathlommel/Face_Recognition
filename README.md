@@ -6,7 +6,7 @@ Pour réaliser cette tâche de reconnaissance faciale, nous allons utiliser le r
 
 Notre interface de reconnaissance faciale se basera sur un jeu de données plus petit que celui qui a servi à l'entraînement du modèle : ["Labelled Faces in the Wild (LFW) Dataset"](https://www.kaggle.com/datasets/jessicali9530/lfw-dataset). Cette base d'images est composée de 500 célébrités différentes, pour lesquelles plusieurs images peuvent être disponibles.
 
-Le processus de reconnaissance faciale est le suivant : 
+Le processus de reconnaissance faciale est le suivant (Voir [Slide_Method](https://github.com/mathlommel/Face_Recognition/blob/main/Slide_Method.pdf)): 
 - Tout d'abord, nous construisons une base de donnée composée des embeddings (issus du réseau neuronal) de toutes les images de notre petite base de données
 - Ensuite, lorsque l'utilisateur importe une image, nous calculons également l'embedding de celle-ci
 - Finalement, nous déterminons l'image de la base de donnée dont l'embedding est "le plus proche" de l'embedding de l'image importée
