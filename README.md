@@ -1,5 +1,5 @@
 # Face_Recognition
-Dans ce projet, l'objectif est de concevoir une interface de reconnaissance faciale. L'objectif est assez simple : permettre à une personne de charger une image, et de lancer un recherche par reconnaissance faciale. Cet algorithme devra renvoyer l'image la plus semblable à l'image chargée par l'utilisateur, avec un score de similarité.
+Dans ce projet, nous allons concevoir une interface de reconnaissance faciale. L'objectif est assez simple : permettre à une personne de charger une image, et de lancer un recherche par reconnaissance faciale. Cet algorithme devra renvoyer l'image la plus semblable à l'image chargée par l'utilisateur, avec un score de similarité.
 
 ## Approche théorique
 Pour réaliser cette tâche de reconnaissance faciale, nous allons utiliser le réseau neuronal Inception-ResNet-V1, pré-entraîné sur le jeu de données VGGFace2. Ce jeu de donnée contient un batch de 500 000 célébrités, avec plusieurs centaines d'images pour chaque individu. Cette base de donnée contient notamment des photos assez diversifiées pour chaque célébrité : images récentes, images de l'individu plus jeune, images de ses différents profils,..etc. L'utilisation de ce modèle pré-entraîné nous permet ainsi d'utiliser un réseau de neurones dont les  performances sont bien supérieures à ce que nous pourrions réaliser à notre échelle d'étudiants.
